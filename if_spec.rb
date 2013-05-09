@@ -3,6 +3,6 @@ require './if'
 
 describe "IF TEST" do
 	it "inputs" do
-		new_process 'james'
+		new_process 'q'
 	end
 end

@@ -2,7 +2,7 @@
 #Create Hash with name / value pair - DONE
 #Iterate with do loop
 # puts valud
-=begin
+
 def process(input)
 	if input == 'q'
 		puts 'Goodbye'
@@ -14,7 +14,6 @@ def process(input)
 		puts 'helping'
 	end
 end
-=end
 
 def new_process(input)
 	noifs = { 
@@ -26,14 +25,6 @@ def new_process(input)
 	noifs.default = ("I aint got nuttin for ya brah!!")
 
 	puts noifs[input]
-	#puts noifs.select {|noif| noif == input }
-
-=begin
-	for noifs.each do |noif|
-	   puts "Value of local variable is #{noif}"
-	end
-    #puts "boo boo" + noifs["q"]
-=end
 end
 
 
